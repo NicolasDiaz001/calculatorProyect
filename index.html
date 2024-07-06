@@ -10,7 +10,14 @@
   <header>
     <h1>Calculator</h1>
   </header>
-  <span id="span"></span>
+
+  <div>
+    <span>Valor: </span><span id="viewValues"></span>
+  </div>
+  <div>
+    <span>Resultado: </span><span id="viewResult"></span>
+  </div>
+
   <main>
     <input type="button" value="1"></input>
     <input type="button" value="2"></input>
@@ -23,13 +30,13 @@
     <input type="button" value="9"></input>
     <button id="delate">del</button>
     <input type="button" value="0"></input>
-    <button>=</button>
+    <button id="result">=</button>
   </main>
   <section>
-    <button>+</button>
-    <button>-</button>
-    <button>*</button>
-    <button>/</button>
+    <button class="operators">+</button>
+    <button class="operators">-</button>
+    <button class="operators">*</button>
+    <button class="operators">/</button>
   </section>
 </body>
 </html>
