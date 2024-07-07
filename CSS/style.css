@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(20, 18, 18);
+}
+
+h1 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+  letter-spacing: 5px;
+}
+
+
+.bodyCalculator {
+  display: flex;
+  width: 300px;
+}
+
+.bodybuttonsNumbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonNumbers{
+  width: 75px;
+  height: 75px;
+  font-size: larger;
+  border: solid 0.5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.buttonNumbers:hover {
+  background-color: rgb(17, 117, 117);
+  font-weight: bold;
+  color: aliceblue;
+
+}
+
+.buttonsOperators {
+  display: flex;
+  flex-direction: column;
+}
+
+.operators {
+  width: 75px;
+  height: 75px;
+  font-size: larger;
+  border: solid 0.5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.operators:hover{
+  background-color: #5f8b0e;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.clean{
+  height: 75px;
+  width: 300px;
+  font-size: larger;
+  border: solid 0.5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.clean:hover{
+  background-color: #887b09;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#delate {
+  width: 75px;
+  height: 75px;
+  font-size: larger;
+  border: solid 0.5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+#delate:hover{
+  background-color: #887b09;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#result {
+  width: 75px;
+  height: 75px;
+  font-size: larger;
+  border: solid 0.5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+#result:hover{
+  background-color: #5f8b0e;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#viewValues {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #aef32d;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  overflow: auto;
+}
+
+#viewResult {
+  display: flex;
+  width: 300px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #31f7dc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  overflow: auto;
+  word-wrap: break-word;
+}
